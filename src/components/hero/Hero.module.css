@@ -1,0 +1,29 @@
+.section {
+  width: 100%;
+  min-height: 600px;
+  background-image: url('../../../public/heroImage.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 1240px;
+  padding: 160px 24px 64px 24px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+}
+
+.mainButton {
+  width: 160px;
+  background-color: transparent;
+  color: rgba(4, 29, 248, 0.945);
+}

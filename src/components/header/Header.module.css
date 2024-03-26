@@ -1,0 +1,28 @@
+.header {
+  position: absolute;
+  width: 100%;
+}
+
+.container {
+  width: 1240px;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+
+.navList {
+  max-width: 400px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.navListItem {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(4, 29, 248, 0.945);
+}
